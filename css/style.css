@@ -15,22 +15,65 @@ body{
     align-items: center;
     gap: 12px;
 }
-
+hr{
+    margin: auto;
+    margin-top: 3rem;
+    width: 90%;
+    opacity: 0.6;
+}
 .githubProfile{
     width: 4%;
 }
-
 .whiteBox{
     background-color: whitesmoke;
     width: 50%;
-    height: 600px;
+    height: 1500px;
     border-radius: 1.5rem;
 
 }
-
 .userSearch{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     gap: 15px;
+    margin-top: 3rem;
+}
+.formBoxArea{
+    width: 35%;
+    height: 30px;
+    border-radius: 0.5rem;
+}
+.formButtonArea{
+    width: 20%;
+    height: 30px;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.githubPhoto{
+   border-radius: 50%;
+   width: 50%;
+   height: 90%;
+   margin: auto; 
+}
+.follow{
+    margin: auto;
+    padding:30px;
+}
+.nameAndDescription{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: auto;
+    gap: 2rem;
+}
+
+.followBox{
+    width: 5rem;
+    height: 2rem;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    
 }
